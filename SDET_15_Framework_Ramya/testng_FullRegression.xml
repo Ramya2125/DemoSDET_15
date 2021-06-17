@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.crm.comcast_Practice.SampleJDBCExecuteQuery"/>
+      <class name="com.crm.comcast_Practice.SampleJDBCExecuteUpdate"/>
+      <class name="com.crm.comcast_Practice.DemoRead"/>
+      <class name="com.crm.comcast_Practice.DemoDebug"/>
+      <class name="com.crm.comcast_Practice.DemoDataProvider"/>
+      <class name="com.crm.comcast.VtigetTest.CreateOrganizationTest"/>
+      <class name="com.crm.comcast_Practice.CreateOrganizationTest"/>
+      <class name="com.crm.comcast_Practice.DemoTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

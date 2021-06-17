@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.crm.comcast_Practice.DemoDebug">
+        <methods>
+          <include name="SampleDebug"/>
+        </methods>
+      </class> <!-- com.crm.comcast_Practice.DemoDebug -->
+      <class name="com.crm.comcast_Practice.CreateOrganizationTest">
+        <methods>
+          <include name="makeDBConnection"/>
+          <include name="loginTtoApp"/>
+          <include name="closeDB"/>
+          <include name="launchBrowser"/>
+          <include name="CreateOrganization"/>
+          <include name="logoutOfApp"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.crm.comcast_Practice.CreateOrganizationTest -->
+      <class name="com.crm.comcast_Practice.DemoRead">
+        <methods>
+          <include name="demoproperty"/>
+        </methods>
+      </class> <!-- com.crm.comcast_Practice.DemoRead -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
